@@ -5,7 +5,7 @@
   font-family: "Inter", serif;
 }
 .container {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   padding-block: 30px;
 }
@@ -36,5 +36,24 @@
 }
 .assistance .text {
   padding-inline: 10px;
-  font-size: 19px;
+  font-size: 20px;
+}
+.hero-section,
+.hero-area {
+  width: 100%;
+}
+.hero-area {
+  display: flex;
+}
+.hero-area h1 {
+  font-size: 70px;
+}
+.text-area {
+  max-width: 45%;
+}
+.image-area {
+  max-width: 55%;
+}
+.image-area img {
+  max-width: 100%;
 }
